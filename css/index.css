@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+header
+{
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #21243d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    display: flex;
+    align-items: center;
+}
+header .logo img
+{
+    width: 80px;
+    filter: invert(1);
+}
+header .logo h2
+{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+header ul
+{
+    display: flex;
+}
+header ul li
+{
+    margin: 0px 12px;
+}
+header ul li a
+{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 4px 10px;
+    transition-duration: 0.3s;
+}
+header ul li a:hover
+{
+    background-color: white;
+    color: #21243d;
+}
+header .icons
+{
+    width: 50px;
+}
+header .icons i
+{
+   color: #fff;
+   font-size: 18px;
+}
+
+
+.banner
+{
+    width: 100%;
+    height: 80vh;
+    background:linear-gradient(90deg, rgba(255,192,0,0.3) 0%, rgba(255,231,0,0.3) 100%), url(../Images/banner.jpg);
+    background-size: cover;
+    padding: 150px 100px;
+}
+.banner .bannerContent
+{
+    width: 60%;
+}
+.banner .bannerContent h2
+{
+    color: #fff;
+    font-size: 4em;
+    text-transform: capitalize;
+}
+.banner .bannerContent p
+{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.banner .bannerContent button
+{
+    padding: 8px 20px;
+    background-color: #21243d;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+
+.menu
+{
+    width: 100%;
+    padding: 70px;
+    background-color: #21243d;
+    text-align: center;
+}
+.menu .title
+{
+    text-align: center;
+}
+.menu .title h2
+{
+    font-size: 3em;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.menu .title p
+{
+    color: #fff;
+    font-weight: 300;
+}
+.menu .menuCards
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu .menuCards .box
+{
+    width: 300px;
+}
+.menu .menuCards .box img
+{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+.menu .menuCards .box h2
+{
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.menu .menuCards .box p
+{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+.order
+{
+    width: 100%;
+    padding: 70px 100px;
+    background-color: #ffd17e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order .leftSide
+{
+    width: 50%;
+}
+.order .leftSide img
+{
+    width: 450px;
+    border-radius: 50%;
+}
+.order .rightSide
+{
+    width: 50%;
+}
+.order .rightSide h2
+{
+    text-transform: capitalize;
+    font-size: 3.5em;
+}
+.order .rightSide p
+{
+    margin: 10px 0px;
+}
+.order .rightSide button
+{
+    padding: 8px 20px;
+    background-color: #21243d;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.stats
+{
+    width: 100%;
+    padding: 70px;
+    background-color: #21243d;
+    text-align: center;
+}
+.stats .title
+{
+    text-align: center;
+}
+.stats .title h2
+{
+    font-size: 3em;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.stats .title p
+{
+    color: #fff;
+}
+.stats .statsCard
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.stats .statsCard .box
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.stats .statsCard .box h2
+{
+    color: #fff;
+    font-size: 3.5em;
+}
+.stats .statsCard .box h3
+{
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.feedback
+{
+    width: 100%;
+    padding: 70px;
+    background:linear-gradient(90deg, rgba(33,36,61,0.9) 0%, rgba(33,36,61,0.9) 100%), url(../Images/image-4.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.feedback img
+{
+    width: 240px;
+    height: 250px;
+    border-radius: 50%;
+}
+.feedback p
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center;
+}
+.feedback h2
+{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.subscribe
+{
+    width: 100%;
+    padding: 70px;
+    background-color: #ffd17e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.subscribe .title h2
+{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.subscribe .searchBox
+{
+    width: 500px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    margin-top: 15px;
+}
+.subscribe .searchBox input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    border-radius: 40px;
+    padding-left: 20px;
+}
+.subscribe .searchBox button
+{
+    background-color: #21243d;
+    border-radius: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 170px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+footer
+{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #21243d;
+}
+footer .sec
+{
+    width: 400px;
+}
+footer .sec h2
+{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+footer .sec p
+{
+    color: #fff;
+    margin-top: 15px;
+}
+footer .sec img
+{
+    width: 40px;
+    margin: 15px 8px;
+    filter: invert(1);
+}
+footer .sec1 h2
+{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+footer .sec1 ul li
+{
+    color: #fff;
+    margin: 12px 0px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
